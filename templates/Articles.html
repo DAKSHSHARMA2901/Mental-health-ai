@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles Page</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Styles.css') }}">
+
+    
+</head>
+
+<body style="background-color: #D7D9B1;"class = "fade-in">
+    <header class="header">
+        <div class="container">
+            <div class="container">
+                <a href="{{ url_for('index') }}">
+                    <h1 class="logo">MINDMATE</h1>
+                </a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                    <li><a href="{{ url_for('about_us') }}">About</a></li>
+                   
+                   
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="articles">
+            <div class="container">
+                <h2 class="section-title" style="text-decoration: underline">Latest Articles</h2>
+                <div class="article">
+                    <h3 class="article-title">Understanding Anxiety Disorders</h3>
+                    <p class="article-content">Anxiety disorders affect millions of people worldwide, causing persistent feelings of fear, worry, and unease. This article explores the different types of anxiety disorders, their symptoms, and treatment options available.</p>
+                </div>
+                <div class="article">
+                    <h3 class="article-title">Managing Stress in Daily Life</h3>
+                    <p class="article-content">Stress is a common experience for many people, but chronic stress can have serious implications for mental and physical health. This article provides practical tips and strategies for managing stress in daily life, including mindfulness techniques, exercise, and self-care practices.</p>
+                </div>
+                <div class="article">
+                    <h3 class="article-title">The Importance of Sleep for Mental Health</h3>
+                    <p class="article-content">Adequate sleep is essential for maintaining good mental health, yet many people struggle with sleep disturbances. This article discusses the impact of sleep on mental well-being and offers advice for improving sleep quality, such as establishing a consistent sleep schedule and creating a relaxing bedtime routine.</p>
+                </div>
+                <div class="article">
+                    <h3 class="article-title">Breaking the Stigma: Understanding Depression</h3>
+                    <p class="article-content">Depression is a serious mental health condition that affects millions of individuals worldwide. This article aims to dispel common myths and misconceptions surrounding depression, while also providing information on symptoms, treatment options, and resources for seeking help.</p>
+                </div>
+                <div class="article">
+                    <h3 class="article-title">Coping with Grief and Loss</h3>
+                    <p class="article-content">Grieving the loss of a loved one is a natural and inevitable part of life, but it can be an overwhelming experience. This article explores the grieving process, common reactions to loss, and strategies for coping with grief in a healthy and constructive manner.</p>
+                </div>
+                <!-- More articles can be added here -->
+            </div>
+            <br>
+                <!-- Article content -->
+                <div>
+                <a href="https://www.nimh.nih.gov/" class="read-more-btn">Read More</a>
+               </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@mentalhealthcompanion.com</p>
+                    <p>Phone: +1-123-456-7890</p>
+                </div>
+                <div class="footer-right">
+                    <ul class="social-icons">
+                        <li><a href="#"><img src="facebook-icon.png" alt="Facebook"></a></li>
+                        <li><a href="#"><img src="twitter-icon.png" alt="Twitter"></a></li>
+                        <li><a href="#"><img src="instagram-icon.png" alt="Instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
