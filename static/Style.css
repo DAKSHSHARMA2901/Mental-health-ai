@@ -1,0 +1,425 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Comic Sans MS', cursive; /* Using Comic Sans MS font */
+    background: linear-gradient(to bottom right, #ffeb3b, #ffc107); /* Bright yellow gradient */
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+/* Header styles */
+.header {
+    background-color: #FDFFFC;
+    color: #004385;
+    padding: 20px 0;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
+    text-decoration: overline;
+}
+
+.logo:hover {
+    color: #F3CA40; /* Change color on hover */
+}
+
+.navbar {
+    float: inline-end;
+}
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration:dotted;
+    color: #ED1C24;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.nav-links li a:hover {
+    color: #ffd54f; /* Change color on hover */
+}
+
+/* Main styles */
+.main {
+    padding: 20px;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    text-decoration: wavy;
+    color: #020100;
+    padding: 100px 0;
+    background-image: url('tim-goedhart-vnpTRdmtQ30-unsplash.jpg'); /* Placeholder URL for background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    background: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 10px;
+    width: auto;
+}
+
+.hero h1 {
+    font-family: 'Dancing Script', cursive; /* Using Dancing Script font */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-family: 'Homemade Apple', cursive; /* Using Homemade Apple font */
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.auth-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.login-form {
+    margin-right: 20px;
+}
+
+.login-form input {
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth background color transition on focus */
+}
+
+.login-form input:focus {
+    background-color: #F1D9A7; /* Light gray background color on focus */
+}
+
+.login-form button {
+    background-color: #F3A738; /* Orange */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+}
+
+.login-form button:hover {
+    background-color: #006E90; /* Darker orange on hover */
+}
+
+.google-btn {
+    background-color: #ffc107; /* Yellow */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+}
+
+.google-btn:hover {
+    background-color: #ffeb3b; /* Darker yellow on hover */
+}
+
+/* About section styles */
+.about-section {
+    background-color: #006E90;
+    color: wheat;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-family: 'Indie Flower', cursive; /* Using Indie Flower font */
+    font-size: 36px;
+    font-display: underline;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-family: 'Shadows Into Light', cursive; /* Using Shadows Into Light font */
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.quote {
+    color: #333; /* Darker color for better visibility */
+    font-style: italic; /* Make it italic */
+}
+
+/* Footer styles */
+.footer {
+    background-color:#BCE7FD;
+    color: #846B8A;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-left {
+    max-width: 50%;
+}
+
+.footer-left h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-left p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-right {
+    max-width: 50%;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons li a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease; /* Smooth scale transition on hover */
+}
+
+.social-icons li a img:hover {
+    transform: scale(1.2); /* Scale up slightly on hover */
+}
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Comic Sans MS', cursive; /* Using Comic Sans MS font */
+    background: linear-gradient(to bottom right, #ffeb3b, #ffc107); /* Bright yellow gradient */
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+/* Header styles */
+.header {
+    background-color: #FDFFFC;
+    color: #004385;
+    padding: 20px 0;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: #F3CA40; /* Change color on hover */
+}
+
+.navbar {
+    float: right;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ED1C24;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.nav-links li a:hover {
+    color: #ffd54f; /* Change color on hover */
+}
+
+/* Main styles */
+.main {
+    padding: 20px;
+}
+
+/* Article section styles */
+.articles {
+    padding: 50px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #004385; /* Dark blue */
+}
+
+.article {
+    background-color: #FDFFFC; /* Light yellow background */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
+}
+
+.article-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #004385; /* Dark blue */
+}
+
+.article-content {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #BCE7FD;
+    color: #846B8A;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-left h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #004385; /* Dark blue */
+}
+
+.footer-left p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.footer-right img {
+    width: 30px;
+    height: 30px;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+.btn {
+    display: inline-block;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Article content styles */
+.article-content {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    transition: color 0.3s ease; /* Add color transition */
+}
+
+/* Hover effect */
+.article:hover .article-title,
+.article:hover .article-content {
+    color: #F3CA40; /* Change text color on hover */
+}
+.read-more-btn {
+    display: block; /* Change to block to center horizontally */
+    background-color: #D1DEDE; /* Remove background color */
+    color: #1D201F;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none; /* Remove border */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 0 auto; /* Center horizontally */
+    width: fit-content; /* Set width to fit content */
+}
+
+.read-more-btn:hover {
+    background-color:#E5F9E0;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.articles-section {
+    animation: fadeIn 1s ease-in-out; /* Apply fade-in animation to the articles section */
+}
